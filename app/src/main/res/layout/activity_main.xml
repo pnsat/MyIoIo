@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FF8888"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read"
+        android:textSize="25dp"
+        android:textColor="#AE3F3F"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txtRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="30dp"
+        android:layout_marginBottom="50dp"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Voltage"
+        android:textSize="25dp"
+        android:textColor="#AE3F3F"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txtGetV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>
